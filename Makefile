@@ -1,4 +1,4 @@
-SOURCE="https://download.jetbrains.com/webstorm/WebStorm-2019.3.tar.gz"
+SOURCE="https://download-cf.jetbrains.com/webstorm/WebStorm-2020.2.1.tar.gz"
 DESTINATION="build.tar.bz2"
 OUTPUT="WebStorm.AppImage"
 
@@ -11,7 +11,7 @@ all:
 	rm -rf AppDir/opt
 
 	mkdir --parents AppDir/opt/application
-	cp -r WebStorm-193.5233.80/* AppDir/opt/application
+	cp -r WebStorm-*/* AppDir/opt/application
 
 	chmod +x AppDir/AppRun
 	export ARCH=x86_64 && bin/appimagetool.AppImage AppDir $(OUTPUT)
