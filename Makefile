@@ -1,4 +1,4 @@
-SOURCE="https://download-cf.jetbrains.com/webstorm/WebStorm-2020.2.1.tar.gz"
+SOURCE="https://download-cdn.jetbrains.com/webstorm/WebStorm-2022.2.1.tar.gz"
 DESTINATION="build.tar.bz2"
 OUTPUT="WebStorm.AppImage"
 
