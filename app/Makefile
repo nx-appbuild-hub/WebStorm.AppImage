@@ -19,7 +19,7 @@ all: clean init
 	    libgdk-pixbuf2.0-0 libatk1.0-0 libatk-bridge2.0-0 libgtk2.0-0 \
 	    libreadline8 at-spi2-core libpango-1.0-0 libselinux1 libgtk-3-0 libwayland-cursor0
 
-	wget --output-document=$(PWD)/build/build.tar.gz https://download-cdn.jetbrains.com/webstorm/WebStorm-2022.2.1.tar.gz
+	wget --output-document=$(PWD)/build/build.tar.gz https://download.jetbrains.com/webstorm/WebStorm-2022.3.2.tar.gz
 	tar -zxvf $(PWD)/build/build.tar.gz --directory $(PWD)/build
 
 	echo '' 																		>> $(PWD)/build/Boilerplate.AppDir/AppRun
